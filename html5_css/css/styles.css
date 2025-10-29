@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h1{
@@ -16,4 +17,17 @@ h2{
 
 footer{
     color: crimson;
+}
+
+h3{
+    color: crimson;
+}
+
+li{
+    color: crimson;
+}
+
+a{
+    color: crimson;
+    text-decoration: none;
 }
