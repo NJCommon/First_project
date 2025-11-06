@@ -14,7 +14,7 @@ a{
 }
 
 #container {
-    background-color: gray;
+    background-color: rgb(50, 10, 66);
     width: 65%;
     margin: 20px auto;
     padding: 20px;
@@ -64,6 +64,15 @@ nav{
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline block;
+}
+
 main h2 {
     text-align: center;
     color: crimson;
@@ -84,3 +93,10 @@ section img {
     border: 2px solid black;
     width: 75%;
 }
+
+img{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 35%;
+}
+
