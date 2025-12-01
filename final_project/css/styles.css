@@ -2,9 +2,12 @@
    GLOBAL STYLES
 ========================= */
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap');
+
+
 body {
     background-color: #000;
-    font-family: Arial, sans-serif;
+    font-family: cinzel, serif;
     margin: 0;
     padding: 0;
 }
