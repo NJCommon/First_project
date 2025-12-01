@@ -3,26 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Batman Home</title>
+    <title>caped crusader</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 <div id="container">
+<audio id="batmanAudio">
+    <source src="audio/I Am Vengeance! I Am The Night! I Am Batman!.mp3" type="audio/mpeg">
+</audio>
+
 
     <header>
         <h1>Batman</h1>
+    <h2 class="subheader">Click image</h2>
+</header>
+
     </header>
 
-    <img src="images/signal.gif" alt="Batman">
+    <img id="batmanImage" src="images/signal.gif" alt="Batman">
 
     <nav>
         <ul>
-            <li><a href="index.html">home</a></li>
+            <li><a href="home.html">home</a></li>
             <li><a href="versions.html">versions</a></li>
             <li><a href="robins.html">robins</a></li>
             <li><a href="batmobile.html">batmobile</a></li>
-            <li><a href="laughs.html">Laugh</a></li>
+            <li><a href="laughs.html">laugh</a></li>
         </ul>
     </nav>
 
@@ -30,39 +37,62 @@
 
     <main class="multi_col">
 
+        <!-- LEFT COLUMN -->
         <section>
-            <h2>Who is Batman?</h2>
-            <p>Batman is the Dark Knight, a crime-fighting vigilante who protects Gotham City. 
-                Using intelligence, combat skills, detective abilities, and advanced technology, 
-                he strikes fear into criminals while upholding his vow to never take a life.</p>
+
+            <h2>Who Is Batman?</h2>
+            <p>Batman is a hero shaped by tragedy, using his pain to drive his mission to protect Gotham City. 
+                After witnessing the death of his parents, he dedicated his life to mastering every skill needed to fight crime. 
+                Through intense training, he became one of the world’s greatest martial artists and detectives. 
+                He uses fear as a powerful tool, turning the symbol of a bat into something criminals dread. 
+                Despite having no superhuman abilities, his determination and discipline make him stand alongside gods and aliens. 
+                Batman represents justice, strategy, and the unbroken will of a man who refuses to surrender.</p>
 
             <hr>
 
-            <img src="images/poster.jpeg" alt="Batman image 2">
+            <img src="images/poster.jpeg" alt="Batman Image 2">
 
-            <p>His mission began after witnessing the tragic death of his parents, which inspired him 
-               to dedicate his life to justice, training his body and mind to the peak of human ability.</p>
+            <h2>Batman’s Mission</h2>
+            <p>Batman’s mission is built on the promise he made as a child: to ensure no one experiences the pain he did. 
+                To achieve this, he studies criminal psychology, tracks patterns, and understands how criminals think. 
+                He works from the shadows, using stealth and strategy instead of brute force. 
+                His gadgets help him stay one step ahead of enemies, preparing him for nearly any situation. 
+                He relies on precision, patience, and morality to guide his actions through Gotham’s darkest nights. 
+                Above all, he fights not just to punish criminals, but to protect the innocent.</p>
 
             <hr>
 
-            <img src="images/bruce.jpeg" alt="Batman image 3">
+            <img src="images/bruce.jpeg" alt="Batman Image 3">
 
-            <footer>&copy; 2025 Batman Website</footer>
+            <footer>&copy; 2025 Batman</footer>
         </section>
 
+        <!-- RIGHT COLUMN -->
         <aside>
             <h3>What Batman Does</h3>
             <ul>
-                <li>Solves crime</li>
-                <li>Protects Gotham</li>
-                <li>Uses advanced gadgets</li>
-                <li>Master detective</li>
-                <li>Elite martial artist</li>
+                <li>Solves crime with detective skills</li>
+                <li>Protects Gotham City</li>
+                <li>Uses advanced gadgets and vehicles</li>
+                <li>Masters stealth and combat</li>
+                <li>Trains future heroes like Robin</li>
+                <li>Fights villains such as Joker and Bane</li>
             </ul>
         </aside>
 
     </main>
 
 </div>
+<script>
+    // Get the image and audio
+    var img = document.getElementById("batmanImage");
+    var audio = document.getElementById("batmanAudio");
+
+    // Play audio on image click
+    img.addEventListener("click", function() {
+        audio.play();
+    });
+</script>
+
 </body>
 </html>
